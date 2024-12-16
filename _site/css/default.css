@@ -5,6 +5,12 @@ body {
   padding: 5%;
 }
 
+blockquote {
+  background-color: #1a1a1a;
+  padding: 0.1rem 0.5rem;
+  border-left: 2px solid white;
+}
+
 .links {
     display: flex;
     gap: 0.5rem;
