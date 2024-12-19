@@ -69,7 +69,7 @@ some basic terminology:
 - it prevents telescoping constructor anti-pattern cases such as:
 
 ```java
-public function \_\_construct(size, size,cheese = true, pepperoni = true, pepperoni=true,tomato = false, $lettuce = true)
+public function _construct(size, size,cheese = true, pepperoni = true, pepperoni=true,tomato = false, $lettuce = true)
 {
 }
 ```
