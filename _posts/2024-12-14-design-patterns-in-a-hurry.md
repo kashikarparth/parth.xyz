@@ -5,13 +5,14 @@ date: 2024-12-14
 categories: tech
 ---
 
-humans -> pattern recognition during problem solving -> repeatability over time -> ✨ design patterns ✨. first came about in architecture, where a language was made using patterns as its units. it was later picked up by software engineers.
+humans -> pattern recognition during problem solving -> repeatability over time -> ✨ design patterns ✨.<br />
+first came about in architecture, where a language was made using patterns as its units. it was later picked up by software engineers.
 
 kind of a double edged sword, because if used correctly, it makes things a lot easier, if not, it's creates technical debt.
 
 > If all you have is a hammer, everything looks like a nail.
 
-in my experience, some design patterns are frequently used within the same codebase, while others are rarely utilized. this is likely because the authors of the codebase have a preferred way of doing things, which they continue to follow as the company grows.
+in my experience, some design patterns are frequently used within the same codebase, while others are rarely utilized. this is likely because some given problem space would have a limited number of patterns that fit the solution naturally, and these patterns are repeated over time.
 
 it is beneficial to be aware of such patterns, as they help create a good structure for information flow. startups focus on speed, whereas larger companies focus on code maintainability and scalability - utilise patterns accordingly, as everything is a tradeoff.
 
@@ -62,7 +63,7 @@ some basic terminology:
 - follows single responsibility principle (the abstract factory is responsible for creating products and families, not the client), and open/closed principle (open for extension, closed for modification)
 - eg: cross platform UI libraries with extensible components, where the concrete UI components are grouped into families based on their platform (mac, windows, linux)
 
-#### builder
+### builder
 
 - this pattern is for constructing complex objects step by step, where the instantion logic is a multi step operation as opposed to a single step used in factory methods.
 - it prevents telescoping constructor anti-pattern cases such as:
@@ -81,8 +82,8 @@ the logic is as follows:
 - create a `Builder` interface, that has methods to set the properties of the `Building` object such as `setSize`, `buildDoors`, `buildWindows`, `buildRoofs` etc.
 - create concrete builder classes that implement the `Builder` interface, such as `ConcreteBuilderA`, `ConcreteBuilderB`, `ConcreteBuilderC` etc.
 - products are created by the builder classes, and the builder classes are responsible for the construction logic.
-- **director** : this is the class that is responsible for creating the products with some predefined configs.
-- the client can use the director to create the products, or the builder classes directly for further combinations of parameters.
+
+> **director** : this is the class that is responsible for creating the products with some predefined configs. the client can use the director to create the products, or the builder classes directly for further combinations of parameters.
 
 - to use when there are several flavors of an object.
 - to use when trying to avoid constructor telescoping.
@@ -90,6 +91,36 @@ the logic is as follows:
 
 eg: complex usecases when building object trees with recursive construction step calling.
 
-### structural
+### prototype
 
-### behavioral
+- this pattern is for cloning objects without coupling to their concrete classes.
+
+- logic is as follows:
+
+  - create a prototype interface that has a `clone` method.
+  - create concrete prototype classes that implement the prototype interface, with additional logic and properties based on the required use case.
+  - the client is responsible for instantiating the prototype class and calling the `clone` method.
+
+- to use when the cost of creating an object is expensive / labour intensive, and you want to avoid creating a new object from scratch.
+- useful when you have 3rd party interfaces and the concrete classes are unknown.
+- can use to reduce number of subclasses based on the type of configuration being used during initialization.
+
+- **prototype registry** : this is a registry of prototype objects that are created at runtime, and can be cloned as required.
+  - stores a list of all cloneable objects, and the client can request a clone of any of the objects in the list.
+  - has a search method that searches for the object in the list based on some criteria, and returns the clone of the object.
+
+eg: game development, where you want to clone a character and modify it into a different variant. I imagine this could be used in [procedural generation of levels](https://www.nomanssky.com/)
+
+### singleton
+
+- this pattern is for ensuring that a class has only one instance, and providing a global point of access to it.
+
+- logic is as follows:
+
+  - create a class with a private constructor, so that no other class can instantiate it.
+  - create a static instance of the class in the same class.
+  - create a static method that returns the instance of the class
+
+- to use when you want to ensure that a class has only one instance - database connections, loggers, configs, etc. this pattern also providers better control over global variables.
+- can also extend to "double-ton" pattern and so on, depending on the number of instances you want to create.
+- eg: [nestjs modules are singletons by default](https://docs.nestjs.com/modules#shared-modules) - very big part of the framework is built around this pattern.
