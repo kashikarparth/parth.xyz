@@ -1,19 +1,24 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.4">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2025-02-08T14:18:49+05:30</updated><id>http://localhost:4000/feed.xml</id><title type="html">parth.xyz</title><subtitle>thoughts and learnings about tech, life, and everything</subtitle><entry><title type="html">behavioral patterns</title><link href="http://localhost:4000/design-patterns/2024/12/14/behavioral-patterns.html" rel="alternate" type="text/html" title="behavioral patterns" /><published>2024-12-14T00:00:00+05:30</published><updated>2024-12-14T00:00:00+05:30</updated><id>http://localhost:4000/design-patterns/2024/12/14/behavioral-patterns</id><content type="html" xml:base="http://localhost:4000/design-patterns/2024/12/14/behavioral-patterns.html"><![CDATA[<p>behavioral patterns are concerned with communication between objects, how objects interact and distribute responsibility.</p>
-
-<p>coming soon with detailed explanations of:</p>
-
-<ul>
-  <li>chain of responsibility pattern</li>
-  <li>command pattern</li>
-  <li>iterator pattern</li>
-  <li>mediator pattern</li>
-  <li>memento pattern</li>
-  <li>observer pattern</li>
-  <li>state pattern</li>
-  <li>strategy pattern</li>
-  <li>template method pattern</li>
-  <li>visitor pattern</li>
-</ul>]]></content><author><name></name></author><category term="design-patterns" /><summary type="html"><![CDATA[behavioral patterns are concerned with communication between objects, how objects interact and distribute responsibility.]]></summary></entry><entry><title type="html">creational patterns</title><link href="http://localhost:4000/design-patterns/2024/12/14/creational-patterns.html" rel="alternate" type="text/html" title="creational patterns" /><published>2024-12-14T00:00:00+05:30</published><updated>2024-12-14T00:00:00+05:30</updated><id>http://localhost:4000/design-patterns/2024/12/14/creational-patterns</id><content type="html" xml:base="http://localhost:4000/design-patterns/2024/12/14/creational-patterns.html"><![CDATA[<p>some basic terminology:</p>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>creational patterns</title>
+    <link rel="stylesheet" href="/css/default.css" />
+    <link rel="stylesheet" href="/css/syntax.css" type="text/css" />
+  </head>
+  <body>
+    <div class="links_header">
+      <h3>creational patterns</h3>
+      <div class="links">
+        
+        <a href="/tech/2024/12/14/design-patterns-in-a-hurry.html"
+          >design patterns</a
+        >
+        • 
+        <a href="/">home</a>
+      </div>
+    </div>
+    <p>some basic terminology:</p>
 
 <ul>
   <li><strong>product</strong> : the object being created, can have different variants.</li>
@@ -150,63 +155,7 @@ we cant use subclasses with PnC here because the number of combinations will exp
   <li>to use when you want to ensure that a class has only one instance - database connections, loggers, configs, etc. this pattern also providers better control over global variables.</li>
   <li>can also extend to “double-ton” pattern and so on, depending on the number of instances you want to create.</li>
   <li>eg: <a href="https://docs.nestjs.com/modules#shared-modules">nestjs modules are singletons by default</a> - very big part of the framework is built around this pattern.</li>
-</ul>]]></content><author><name></name></author><category term="design-patterns" /><summary type="html"><![CDATA[some basic terminology:]]></summary></entry><entry><title type="html">design patterns in a hurry</title><link href="http://localhost:4000/tech/2024/12/14/design-patterns-in-a-hurry.html" rel="alternate" type="text/html" title="design patterns in a hurry" /><published>2024-12-14T00:00:00+05:30</published><updated>2024-12-14T00:00:00+05:30</updated><id>http://localhost:4000/tech/2024/12/14/design-patterns-in-a-hurry</id><content type="html" xml:base="http://localhost:4000/tech/2024/12/14/design-patterns-in-a-hurry.html"><![CDATA[<p>humans -&gt; pattern recognition during problem solving -&gt; repeatability over time -&gt; ✨ design patterns ✨.<code class="language-plaintext highlighter-rouge">&lt;br /&gt;</code>
-first came about in architecture, where a language was made using patterns as its units. it was later picked up by software engineers.</p>
-
-<p>kind of a double edged sword, because if used correctly, it makes things a lot easier, if not, it’s creates technical debt.</p>
-
-<blockquote>
-  <p>if all you have is a hammer, everything looks like a nail.</p>
-</blockquote>
-
-<p>in my experience, some design patterns are frequently used within the same codebase, while others are rarely utilized. this is likely because some given problem space would have a limited number of patterns that fit the solution naturally, and these patterns are repeated over time.</p>
-
-<p>it is beneficial to be aware of such patterns, as they help create a good structure for information flow. startups focus on speed, whereas larger companies focus on code maintainability and scalability - utilise patterns accordingly, as everything is a tradeoff.</p>
-
-<p>this post is a a quick refresher on design patterns, i learned from <a href="https://github.com/kamranahmedse/design-patterns-for-humans">this repo</a> and <a href="https://refactoring.guru/design-patterns/what-is-pattern">this website</a>.</p>
-
-<h3 id="types-of-design-patterns">types of design patterns</h3>
-
-<p>there are three main categories of design patterns:</p>
-
-<ul>
-  <li><a href="/design-patterns/2024/12/14/creational-patterns.html">creational patterns</a> : related to object(s) instantiation</li>
-  <li><a href="/design-patterns/2024/12/14/structural-patterns.html">structural patterns</a> : related to object(s) composition, how entities can use each other. think “components”.</li>
-  <li><a href="/design-patterns/2024/12/14/behavioral-patterns.html">behavioral patterns</a> : related to object(s) responsibilities, how they can interact with each other.</li>
-</ul>]]></content><author><name></name></author><category term="tech" /><summary type="html"><![CDATA[humans -&gt; pattern recognition during problem solving -&gt; repeatability over time -&gt; ✨ design patterns ✨.&lt;br /&gt; first came about in architecture, where a language was made using patterns as its units. it was later picked up by software engineers.]]></summary></entry><entry><title type="html">structural patterns</title><link href="http://localhost:4000/design-patterns/2024/12/14/structural-patterns.html" rel="alternate" type="text/html" title="structural patterns" /><published>2024-12-14T00:00:00+05:30</published><updated>2024-12-14T00:00:00+05:30</updated><id>http://localhost:4000/design-patterns/2024/12/14/structural-patterns</id><content type="html" xml:base="http://localhost:4000/design-patterns/2024/12/14/structural-patterns.html"><![CDATA[<p>structural patterns are concerned with how classes and objects are composed to form larger structures. they help ensure that when one part of a system changes, the entire structure doesn’t need to change.</p>
-
-<p>coming soon with detailed explanations of:</p>
-
-<ul>
-  <li>adapter pattern</li>
-  <li>bridge pattern</li>
-  <li>composite pattern</li>
-  <li>decorator pattern</li>
-  <li>facade pattern</li>
-  <li>flyweight pattern</li>
-  <li>proxy pattern</li>
-</ul>]]></content><author><name></name></author><category term="design-patterns" /><summary type="html"><![CDATA[structural patterns are concerned with how classes and objects are composed to form larger structures. they help ensure that when one part of a system changes, the entire structure doesn’t need to change.]]></summary></entry><entry><title type="html">is this thing on?</title><link href="http://localhost:4000/thoughts/2024/12/12/mic-check.html" rel="alternate" type="text/html" title="is this thing on?" /><published>2024-12-12T00:00:00+05:30</published><updated>2024-12-12T00:00:00+05:30</updated><id>http://localhost:4000/thoughts/2024/12/12/mic-check</id><content type="html" xml:base="http://localhost:4000/thoughts/2024/12/12/mic-check.html"><![CDATA[<h3 id="about-me">about me</h3>
-
-<ul>
-  <li>engineering graduate from bits pilani, pilani, 2021.</li>
-  <li>working at <a href="https://www.regie.ai/">regie.ai</a>, making ai agents for sales.</li>
-  <li>full stack engineer, wannabe tech writer</li>
 </ul>
 
-<h3 id="status-update">status update</h3>
-
-<p>realising that there’s a lot to learn, took my time to get to it.</p>
-
-<ol>
-  <li>you can just do things, <a href="https://www.youtube.com/watch?v=Rc4_j0LxyzI">action produces information</a></li>
-  <li><a href="https://nav.al/judgment">the world bends to mastery</a>, those who know where to strike the hammer</li>
-  <li><a href="https://paulgraham.com/greatwork.html">its simple, not easy</a></li>
-</ol>
-
-<p>i need to get cracked, and this is going to be work bench</p>
-
-<ul>
-  <li><a href="https://roadmap.sh/computer-science" title="roadmap">cs fundamentals</a>, write notes and make small projects to understand things deeply.</li>
-  <li>side projects / open source contribs that are going to be genuinely useful for everyone</li>
-  <li>philosophy, rants, musings, and other random thoughts that come into mind</li>
-</ul>]]></content><author><name></name></author><category term="thoughts" /><summary type="html"><![CDATA[about me]]></summary></entry></feed>
+  </body>
+</html>
