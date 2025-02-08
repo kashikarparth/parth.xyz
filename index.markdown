@@ -20,7 +20,7 @@ title: scribbles
 {% if tech_posts_exist or thoughts_posts_exist %}
 {% if tech_posts_exist %}
 
-<h3>posts</h3>
+<h3>tech</h3>
 
 <table>
 <tr>
