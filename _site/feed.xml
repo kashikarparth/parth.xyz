@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.4">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2025-02-08T20:10:22+05:30</updated><id>http://localhost:4000/feed.xml</id><title type="html">parth.xyz</title><subtitle>thoughts and learnings about tech, life, and everything</subtitle><entry><title type="html">behavioral patterns</title><link href="http://localhost:4000/design-patterns/2024/12/14/behavioral-patterns.html" rel="alternate" type="text/html" title="behavioral patterns" /><published>2024-12-14T00:00:00+05:30</published><updated>2024-12-14T00:00:00+05:30</updated><id>http://localhost:4000/design-patterns/2024/12/14/behavioral-patterns</id><content type="html" xml:base="http://localhost:4000/design-patterns/2024/12/14/behavioral-patterns.html"><![CDATA[<p>behavioral patterns are concerned with communication between objects, how objects interact and distribute responsibility.</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.4">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2025-02-08T21:15:17+05:30</updated><id>http://localhost:4000/feed.xml</id><title type="html">parth.xyz</title><subtitle>thoughts and learnings about tech, life, and everything</subtitle><entry><title type="html">behavioral patterns</title><link href="http://localhost:4000/design-patterns/2024/12/14/behavioral-patterns.html" rel="alternate" type="text/html" title="behavioral patterns" /><published>2024-12-14T00:00:00+05:30</published><updated>2024-12-14T00:00:00+05:30</updated><id>http://localhost:4000/design-patterns/2024/12/14/behavioral-patterns</id><content type="html" xml:base="http://localhost:4000/design-patterns/2024/12/14/behavioral-patterns.html"><![CDATA[<p>behavioral patterns are concerned with communication between objects, how objects interact and distribute responsibility.</p>
 
 <p>coming soon with detailed explanations of:</p>
 
@@ -150,7 +150,7 @@ we cant use subclasses with PnC here because the number of combinations will exp
   <li>to use when you want to ensure that a class has only one instance - database connections, loggers, configs, etc. this pattern also providers better control over global variables.</li>
   <li>can also extend to “double-ton” pattern and so on, depending on the number of instances you want to create.</li>
   <li>eg: <a href="https://docs.nestjs.com/modules#shared-modules">nestjs modules are singletons by default</a> - very big part of the framework is built around this pattern.</li>
-</ul>]]></content><author><name></name></author><category term="design-patterns" /><summary type="html"><![CDATA[some basic terminology:]]></summary></entry><entry><title type="html">design patterns in a hurry</title><link href="http://localhost:4000/wip/tech/2024/12/14/design-patterns-in-a-hurry.html" rel="alternate" type="text/html" title="design patterns in a hurry" /><published>2024-12-14T00:00:00+05:30</published><updated>2024-12-14T00:00:00+05:30</updated><id>http://localhost:4000/wip/tech/2024/12/14/design-patterns-in-a-hurry</id><content type="html" xml:base="http://localhost:4000/wip/tech/2024/12/14/design-patterns-in-a-hurry.html"><![CDATA[<p>humans -&gt; pattern recognition during problem solving -&gt; repeatability over time -&gt; ✨ design patterns ✨.<code class="language-plaintext highlighter-rouge">&lt;br /&gt;</code>
+</ul>]]></content><author><name></name></author><category term="design-patterns" /><summary type="html"><![CDATA[some basic terminology:]]></summary></entry><entry><title type="html">design patterns in a hurry</title><link href="http://localhost:4000/tech/design-patterns/2024/12/14/design-patterns-in-a-hurry.html" rel="alternate" type="text/html" title="design patterns in a hurry" /><published>2024-12-14T00:00:00+05:30</published><updated>2024-12-14T00:00:00+05:30</updated><id>http://localhost:4000/tech/design-patterns/2024/12/14/design-patterns-in-a-hurry</id><content type="html" xml:base="http://localhost:4000/tech/design-patterns/2024/12/14/design-patterns-in-a-hurry.html"><![CDATA[<p>humans -&gt; pattern recognition during problem solving -&gt; repeatability over time -&gt; ✨ design patterns ✨.<code class="language-plaintext highlighter-rouge">&lt;br /&gt;</code>
 first came about in architecture, where a language was made using patterns as its units. it was later picked up by software engineers.</p>
 
 <p>kind of a double edged sword, because if used correctly, it makes things a lot easier, if not, it’s creates technical debt.</p>
@@ -173,7 +173,7 @@ first came about in architecture, where a language was made using patterns as it
   <li><a href="/design-patterns/2024/12/14/creational-patterns.html">creational patterns</a> : related to object(s) instantiation</li>
   <li><a href="/design-patterns/2024/12/14/structural-patterns.html">structural patterns</a> : related to object(s) composition, how entities can use each other. think “components”.</li>
   <li><a href="/design-patterns/2024/12/14/behavioral-patterns.html">behavioral patterns</a> : related to object(s) responsibilities, how they can interact with each other.</li>
-</ul>]]></content><author><name></name></author><category term="wip" /><category term="tech" /><summary type="html"><![CDATA[humans -&gt; pattern recognition during problem solving -&gt; repeatability over time -&gt; ✨ design patterns ✨.&lt;br /&gt; first came about in architecture, where a language was made using patterns as its units. it was later picked up by software engineers.]]></summary></entry><entry><title type="html">structural patterns</title><link href="http://localhost:4000/design-patterns/2024/12/14/structural-patterns.html" rel="alternate" type="text/html" title="structural patterns" /><published>2024-12-14T00:00:00+05:30</published><updated>2024-12-14T00:00:00+05:30</updated><id>http://localhost:4000/design-patterns/2024/12/14/structural-patterns</id><content type="html" xml:base="http://localhost:4000/design-patterns/2024/12/14/structural-patterns.html"><![CDATA[<p>structural patterns are concerned with how classes and objects are composed to form larger structures. they help ensure that when one part of a system changes, the entire structure doesn’t need to change.</p>
+</ul>]]></content><author><name></name></author><category term="tech" /><category term="design-patterns" /><summary type="html"><![CDATA[humans -&gt; pattern recognition during problem solving -&gt; repeatability over time -&gt; ✨ design patterns ✨.&lt;br /&gt; first came about in architecture, where a language was made using patterns as its units. it was later picked up by software engineers.]]></summary></entry><entry><title type="html">structural patterns</title><link href="http://localhost:4000/design-patterns/2024/12/14/structural-patterns.html" rel="alternate" type="text/html" title="structural patterns" /><published>2024-12-14T00:00:00+05:30</published><updated>2024-12-14T00:00:00+05:30</updated><id>http://localhost:4000/design-patterns/2024/12/14/structural-patterns</id><content type="html" xml:base="http://localhost:4000/design-patterns/2024/12/14/structural-patterns.html"><![CDATA[<p>structural patterns are concerned with how classes and objects are composed to form larger structures. they help ensure that when one part of a system changes, the entire structure doesn’t need to change.</p>
 
 <p>coming soon with detailed explanations of:</p>
 
@@ -185,4 +185,52 @@ first came about in architecture, where a language was made using patterns as it
   <li>facade pattern</li>
   <li>flyweight pattern</li>
   <li>proxy pattern</li>
-</ul>]]></content><author><name></name></author><category term="design-patterns" /><summary type="html"><![CDATA[structural patterns are concerned with how classes and objects are composed to form larger structures. they help ensure that when one part of a system changes, the entire structure doesn’t need to change.]]></summary></entry></feed>
+</ul>]]></content><author><name></name></author><category term="design-patterns" /><summary type="html"><![CDATA[structural patterns are concerned with how classes and objects are composed to form larger structures. they help ensure that when one part of a system changes, the entire structure doesn’t need to change.]]></summary></entry><entry><title type="html">on trying</title><link href="http://localhost:4000/thoughts/2024/01/08/on-tryin.html" rel="alternate" type="text/html" title="on trying" /><published>2024-01-08T00:00:00+05:30</published><updated>2024-01-08T00:00:00+05:30</updated><id>http://localhost:4000/thoughts/2024/01/08/on-tryin</id><content type="html" xml:base="http://localhost:4000/thoughts/2024/01/08/on-tryin.html"><![CDATA[<p>lately, i’ve been thinking a lot about trying. there are many angles to this topic, wanted to write about a few of them. (maybe this is a note to self, maybe not)</p>
+
+<h2 id="what-does-trying-mean">what does trying mean?</h2>
+
+<p>in this context, “trying” means to decide to put in the effort to do something. to “try” is to decide to “do”. the question then becomes, why does one have to decide to do the thing? is it out of an interest in the outcome, or is the act of doing itself the reward?</p>
+
+<p>the latter is what one must aim for, and the former is a trap. this is well encapsulated on charles bukowski’s gravestone:</p>
+
+<p><img src="/assets/images/charles-bukowski.png" alt="charles bukowski" style="width: 40%; border-radius: 8px;" /></p>
+
+<h2 id="the-intent-paradox">the intent paradox</h2>
+
+<p>in this video on <a href="https://einzelganger.co/the-backwards-law/">the backwards law</a>, this idea is further expanded. the basic idea here is that when we try to do something, its because we want to get something out of it. its more than just “wanting to get money”, or “wanting to lose weight”. its more about what we <em>really</em> want out of doing something.</p>
+
+<p>most likely, we want satisfaction, and to fill “our sense of lack” thereof. the paradox here is that in the pursuit of satisfaction, we are admitting to the fact that we are unsatisfied with the lack of “trying” the thing in the first place and that there is an imaginary ideal state that we are trying to reach.</p>
+
+<p>unfortunately, it seems the pursuit of the ideal state is endless. the moment you reach one, you create another one. setting such kind of goals is actually counterproductive, because the more one <em>needs</em> to <em>try</em>, the loftier the goal, the more one is currently dissatisfied with the state they are in.</p>
+
+<p>the more “in control” you want to feel, the more you realise you are not. the same is true for pursuit of freedom, “happiness”, security, “meaning”…</p>
+
+<h2 id="the-sunk-cost-fallacy">the sunk cost fallacy</h2>
+
+<p>another aspect to this kind of life is the sunk cost fallacy. this is the idea that once you have invested time or money into something, you are more likely to continue investing in it, even if it is not the best decision, even if is a <em>harmful</em> one.</p>
+
+<p>why are jobs stressful? why do people stay in toxic relationships? why do people continue bad behaviors?</p>
+
+<p>the whole idea is that we are so invested in the concept of trying to be someone we are not, where external influences have affected our decision making, that our life systems now rely on us continuining to do so.</p>
+
+<p>how will one get a promotion at work? by doing better at the job. how will one do better at the job? by gaining more experience and expertise. its pretty straightforward, and can get pretty stagnated if the job is something that one has to “try” to do, and not just do.</p>
+
+<h2 id="diminishing-returns">diminishing returns</h2>
+
+<p><a href="https://www.investopedia.com/terms/l/lawofdiminishingmarginalreturn.asp">diminishing returns</a> are everywhere. seems like its a design pattern of the universe. its not just economics, but <a href="https://jeffnippard.com/blogs/news/junk-volume-why-you-must-avoid-it-for-max-muscle">also trying to look better</a>, <a href="https://calnewport.com/on-productivity-part-3/">work more</a>, <a href="https://www.forbes.com/sites/johnjennings/2024/02/12/money-buys-happiness-after-all/#:~:text=The%20%2475%2C000%20Study&amp;text=This%20belief%20is%20supported%20by,with%20income%20up%20to%20%2475%2C000.">earn more money</a> and so on.</p>
+
+<p>the problem then, is that effort has diminishing returns on outcomes. the more you try, the less incremental value you get out of it. any sense of achievement, any validation of self worth, any “second order” pursuit is exponentially more difficult to achieve. this only adds to the stress and troubles of the situation.</p>
+
+<p>its basically like digging a hole, and trying to get out of it by digging deeper.</p>
+
+<h2 id="perspective">perspective</h2>
+
+<p>the way to solve this is to change your perspective on the situation. you have to just let go and do things for the sake of doing them. no ulterior motives, no expectations, no external motivations or mimetic desires. just do.</p>
+
+<p>this is not simple, but not easy. especialy because everything is now designed to make you feel like you are not doing enough and that there is a better way to do things.</p>
+
+<p>ignore the hustle culture (read - seeking validation by signalling that working hard is better than not working hard), ignore the investment headlines (read - signalling that people investing in things is something worth pursuing for you), ignore things that dont really resonate with you <em>directly</em> because at the end of the day, you will fall into the same trap of “trying” to do something.</p>
+
+<p>does the act of doing the thing energise you? if yes, go all in. <a href="https://x.com/naval/status/1337144251403014144">it will not feel like “trying”</a> and you wont be trying. if not, find something that does, and trust that it will work out. its the only way to break this un-sustainable cycle.</p>
+
+<hr />]]></content><author><name></name></author><category term="thoughts" /><summary type="html"><![CDATA[lately, i’ve been thinking a lot about trying. there are many angles to this topic, wanted to write about a few of them. (maybe this is a note to self, maybe not)]]></summary></entry></feed>
