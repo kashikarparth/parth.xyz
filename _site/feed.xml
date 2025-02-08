@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.4">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2025-02-08T21:19:18+05:30</updated><id>http://localhost:4000/feed.xml</id><title type="html">parth.xyz</title><subtitle>thoughts and learnings about tech, life, and everything</subtitle><entry><title type="html">behavioral patterns</title><link href="http://localhost:4000/design-patterns/2024/12/14/behavioral-patterns.html" rel="alternate" type="text/html" title="behavioral patterns" /><published>2024-12-14T00:00:00+05:30</published><updated>2024-12-14T00:00:00+05:30</updated><id>http://localhost:4000/design-patterns/2024/12/14/behavioral-patterns</id><content type="html" xml:base="http://localhost:4000/design-patterns/2024/12/14/behavioral-patterns.html"><![CDATA[<p>behavioral patterns are concerned with communication between objects, how objects interact and distribute responsibility.</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.4">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2025-02-09T00:07:11+05:30</updated><id>http://localhost:4000/feed.xml</id><title type="html">parth.xyz</title><subtitle>thoughts and learnings about tech, life, and everything</subtitle><entry><title type="html">behavioral patterns</title><link href="http://localhost:4000/design-patterns/2024/12/14/behavioral-patterns.html" rel="alternate" type="text/html" title="behavioral patterns" /><published>2024-12-14T00:00:00+05:30</published><updated>2024-12-14T00:00:00+05:30</updated><id>http://localhost:4000/design-patterns/2024/12/14/behavioral-patterns</id><content type="html" xml:base="http://localhost:4000/design-patterns/2024/12/14/behavioral-patterns.html"><![CDATA[<p>behavioral patterns are concerned with communication between objects, how objects interact and distribute responsibility.</p>
 
 <p>coming soon with detailed explanations of:</p>
 
@@ -187,7 +187,7 @@ first came about in architecture, where a language was made using patterns as it
   <li>proxy pattern</li>
 </ul>]]></content><author><name></name></author><category term="design-patterns" /><summary type="html"><![CDATA[structural patterns are concerned with how classes and objects are composed to form larger structures. they help ensure that when one part of a system changes, the entire structure doesn’t need to change.]]></summary></entry><entry><title type="html">on trying</title><link href="http://localhost:4000/thoughts/2024/01/08/on-trying.html" rel="alternate" type="text/html" title="on trying" /><published>2024-01-08T00:00:00+05:30</published><updated>2024-01-08T00:00:00+05:30</updated><id>http://localhost:4000/thoughts/2024/01/08/on-trying</id><content type="html" xml:base="http://localhost:4000/thoughts/2024/01/08/on-trying.html"><![CDATA[<p>lately, i’ve been thinking a lot about trying. there are many angles to this topic, wanted to write about a few of them. (maybe this is a note to self, maybe not)</p>
 
-<h2 id="what-does-trying-mean">what does trying mean?</h2>
+<h3 id="what-does-trying-mean">what does trying mean?</h3>
 
 <p>in this context, “trying” means to decide to put in the effort to do something. to “try” is to decide to “do”. the question then becomes, why does one have to decide to do the thing? is it out of an interest in the outcome, or is the act of doing itself the reward?</p>
 
@@ -195,7 +195,7 @@ first came about in architecture, where a language was made using patterns as it
 
 <p><img src="/assets/images/charles-bukowski.png" alt="charles bukowski" style="width: 40%; border-radius: 8px;" /></p>
 
-<h2 id="the-intent-paradox">the intent paradox</h2>
+<h3 id="the-intent-paradox">the intent paradox</h3>
 
 <p>in this video on <a href="https://einzelganger.co/the-backwards-law/">the backwards law</a>, this idea is further expanded. the basic idea here is that when we try to do something, its because we want to get something out of it. its more than just “wanting to get money”, or “wanting to lose weight”. its more about what we <em>really</em> want out of doing something.</p>
 
@@ -205,7 +205,7 @@ first came about in architecture, where a language was made using patterns as it
 
 <p>the more “in control” you want to feel, the more you realise you are not. the same is true for pursuit of freedom, “happiness”, security, “meaning”…</p>
 
-<h2 id="the-sunk-cost-fallacy">the sunk cost fallacy</h2>
+<h3 id="the-sunk-cost-fallacy">the sunk cost fallacy</h3>
 
 <p>another aspect to this kind of life is the sunk cost fallacy. this is the idea that once you have invested time or money into something, you are more likely to continue investing in it, even if it is not the best decision, even if is a <em>harmful</em> one.</p>
 
@@ -215,7 +215,7 @@ first came about in architecture, where a language was made using patterns as it
 
 <p>how will one get a promotion at work? by doing better at the job. how will one do better at the job? by gaining more experience and expertise. its pretty straightforward, and can get pretty stagnated if the job is something that one has to “try” to do, and not just do.</p>
 
-<h2 id="diminishing-returns">diminishing returns</h2>
+<h3 id="diminishing-returns">diminishing returns</h3>
 
 <p><a href="https://www.investopedia.com/terms/l/lawofdiminishingmarginalreturn.asp">diminishing returns</a> are everywhere. seems like its a design pattern of the universe. its not just economics, but <a href="https://jeffnippard.com/blogs/news/junk-volume-why-you-must-avoid-it-for-max-muscle">also trying to look better</a>, <a href="https://calnewport.com/on-productivity-part-3/">work more</a>, <a href="https://www.forbes.com/sites/johnjennings/2024/02/12/money-buys-happiness-after-all/#:~:text=The%20%2475%2C000%20Study&amp;text=This%20belief%20is%20supported%20by,with%20income%20up%20to%20%2475%2C000.">earn more money</a> and so on.</p>
 
@@ -223,7 +223,7 @@ first came about in architecture, where a language was made using patterns as it
 
 <p>its basically like digging a hole, and trying to get out of it by digging deeper.</p>
 
-<h2 id="perspective">perspective</h2>
+<h3 id="perspective">perspective</h3>
 
 <p>the way to solve this is to change your perspective on the situation. you have to just let go and do things for the sake of doing them. no ulterior motives, no expectations, no external motivations or mimetic desires. just do.</p>
 
