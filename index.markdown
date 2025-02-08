@@ -1,7 +1,9 @@
 ---
 layout: default
-title: scribbles
+title: parth.xyz
 ---
+
+<div>personal notepad for useful ideas</div>
 
 ---
 
