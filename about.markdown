@@ -1,18 +1,44 @@
 ---
-layout: page
-title: About
+layout: post
+title: is this thing on?
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+### about me
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+<div style="display: flex; align-items: center; gap: 2rem;">
+ <img src="/assets/images/me.png" alt="profile" style="width: 150px; height: 150px" />
+ <div markdown="1">
+- engineering graduate from [bits pilani](https://www.google.com/search?q=bits+pilani&oq=bits+pilani&sourceid=chrome&ie=UTF-8), pilani, 2021.
+- working at [regie.ai](https://www.regie.ai/), making ai agents for sales.
+- full stack engineer, wannabe tech writer
+ </div>
+</div>
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
+### why this blog?
 
+the purpose of this blog is to write about my lessons and thoughts. <br />
+i've been meaning to write for a while now, because i believe that writing is one of the best ways to truly "realise" something. there are a few base concepts that have inspired me to begin writing
 
-[jekyll-organization]: https://github.com/jekyll
+1. this quote by [feynman](https://www.goodreads.com/quotes/8414-what-i-cannot-create-i-do-not-understand)
+
+   writing is slow. writing is arduous, and it takes a lot of practice to get better at. considering that i am software engineer with majority of my time spent coding, writing is a skill that i need to constantly sharpen because it translates directly into clarity of thought. writing forces me to think harder about the concepts i' trying to explore, original or otherwise.
+
+2. from patterns emerge superpowers
+
+   i am going to tag everything, this is going to be a mess but my hope is that patterns will emerge over time which will make me reflect on myself and where i need to focus my energy and time. taking inspiration from concepts like [second brain](https://obsidian.md/) editors, but not to overcomplicate [doing things](https://x.com/ChrisWillx/status/1664302375656357888), i think this blog is a good way to start.
+
+3. volume is king
+
+   writing creates a sense of momentum and accountability. the hope, is that writing will make me read and focus on more valuable information from the bloat that is the internet. [action produces information](https://paulgraham.com/greatwork.html), and writing can be a vehicle of action, adding a layer of meaning to the information i deal with.
+
+### standards
+
+- will tag everything, however messy it gets. will be very useful over time.
+- will write about tech, life, everything i want to explore.
+- will have uncooked opinions, better to start feedback loops early than never.
+- keeping the aesthetic minimalistic, decoration is for short attention spans and pop psychology. dark mode because i like my eyesight.
+
+_thanks for reading! hope you find something useful here._
+
+<div class="divider" />

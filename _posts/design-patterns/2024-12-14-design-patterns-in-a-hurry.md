@@ -2,7 +2,7 @@
 layout: post
 title: "design patterns in a hurry"
 date: 2024-12-14
-categories: wip
+categories: wip tech
 ---
 
 humans -> pattern recognition during problem solving -> repeatability over time -> ✨ design patterns ✨.`<br />`
@@ -22,6 +22,6 @@ this post is a a quick refresher on design patterns, i learned from [this repo](
 
 there are three main categories of design patterns:
 
-- [creational patterns]({% post_url 2024-12-14-creational-patterns %}) : related to object(s) instantiation
-- [structural patterns]({% post_url 2024-12-14-structural-patterns %}) : related to object(s) composition, how entities can use each other. think "components".
-- [behavioral patterns]({% post_url 2024-12-14-behavioral-patterns %}) : related to object(s) responsibilities, how they can interact with each other.
+- [creational patterns]({% post_url design-patterns/2024-12-14-creational-patterns %}) : related to object(s) instantiation
+- [structural patterns]({% post_url design-patterns/2024-12-14-structural-patterns %}) : related to object(s) composition, how entities can use each other. think "components".
+- [behavioral patterns]({% post_url design-patterns/2024-12-14-behavioral-patterns %}) : related to object(s) responsibilities, how they can interact with each other.

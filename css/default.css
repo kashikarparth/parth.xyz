@@ -11,11 +11,6 @@ blockquote {
   border-left: 2px solid white;
 }
 
-.links {
-    display: flex;
-    gap: 0.5rem;
-  }
-
 .links_header {
     display: flex;
     width: 100%;

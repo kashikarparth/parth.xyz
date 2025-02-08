@@ -1,9 +1,7 @@
 ---
 layout: default
-title: parth.xyz
+title: scribbles
 ---
-
-personal notepad
 
 ---
 
