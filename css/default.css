@@ -34,8 +34,8 @@ a {
     color: #00bfff;
 }
 
-hr {
-    border-top: 1px solid #ffffff00;
+.divider {
+    border-top: 1px solid rgba(255, 255, 255, 0.3);
     height: 0px;
     width: 100%;
 }

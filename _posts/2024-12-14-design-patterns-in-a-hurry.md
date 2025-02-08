@@ -2,7 +2,7 @@
 layout: post
 title: "design patterns in a hurry"
 date: 2024-12-14
-categories: tech
+categories: wip
 ---
 
 humans -> pattern recognition during problem solving -> repeatability over time -> ✨ design patterns ✨.`<br />`
