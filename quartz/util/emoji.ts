@@ -37,7 +37,12 @@ export async function loadEmoji(code: string) {
     emojimap = data
   }
 
-  const name = emojimap.codePointToName[`U+${code.toUpperCase()}`]
+  let name = emojimap.codePointToName[`U+${code.toUpperCase()}`]
+  // Fallback: try base codepoint if not found (e.g., for skin tone variants)
+  if (!name && code.includes("-")) {
+    const baseCode = code.split("-")[0]
+    name = emojimap.codePointToName[`U+${baseCode.toUpperCase()}`]
+  }
   if (!name) throw new Error(`codepoint ${code} not found in map`)
 
   const b64 = emojimap.nameToBase64[name]
