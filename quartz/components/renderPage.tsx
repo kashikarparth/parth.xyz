@@ -252,12 +252,25 @@ export function renderPage(
                 </div>
               </div>
               <Content {...componentData} />
-              <hr />
-              <div class="page-footer">
-                {afterBody.map((BodyComponent) => (
-                  <BodyComponent {...componentData} />
-                ))}
-              </div>
+              {componentData.fileData.slug === "index" ? (
+                <>
+                  <div class="page-footer">
+                    {afterBody.map((BodyComponent) => (
+                      <BodyComponent {...componentData} />
+                    ))}
+                  </div>
+                  <hr />
+                </>
+              ) : (
+                <>
+                  <hr />
+                  <div class="page-footer">
+                    {afterBody.map((BodyComponent) => (
+                      <BodyComponent {...componentData} />
+                    ))}
+                  </div>
+                </>
+              )}
             </div>
             {RightComponent}
             <Footer {...componentData} />

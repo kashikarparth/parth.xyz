@@ -5,7 +5,16 @@ import * as Component from "./quartz/components"
 export const sharedPageComponents: SharedLayout = {
   head: Component.Head(),
   header: [],
-  afterBody: [],
+  afterBody: [
+    Component.ConditionalRender({
+      component: Component.SocialLinks({
+        github: "https://github.com/kashikarparth",
+        x: "https://x.com/KashikarParth",
+        linkedin: "https://www.linkedin.com/in/parth-kashikar/",
+      }),
+      condition: (page) => page.fileData.slug === "index",
+    }),
+  ],
   footer: Component.Footer({
     links: {
       GitHub: "https://github.com/jackyzha0/quartz",
