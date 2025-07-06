@@ -9,7 +9,7 @@ export default ((opts?: Options) => {
   const Footer: QuartzComponent = ({ displayClass }: QuartzComponentProps) => {
     return (
       <footer class={`${displayClass ?? ""}`}>
-        <p>Thanks for reading, hope you enjoyed it! 🎉</p>
+        <p>thanks for reading, hope you enjoyed it! 🎉</p>
       </footer>
     )
   }

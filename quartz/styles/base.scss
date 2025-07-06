@@ -17,6 +17,7 @@ body {
   background-color: var(--light);
   font-family: var(--bodyFont);
   color: var(--darkgray);
+  font-size: 14px;
 }
 
 .text-highlight {
@@ -609,6 +610,10 @@ ol.overflow {
   &.gradient-active {
     mask-image: linear-gradient(to bottom, black calc(100% - 50px), transparent 100%);
   }
+}
+
+ol > li:not(:last-child) {
+  margin-bottom: 0.75em;
 }
 
 .transclude {

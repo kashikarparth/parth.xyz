@@ -1,7 +1,11 @@
 ---
-title: "Parth Kashikar"
-
-date: 2025-06-06
+title: Parth Kashikar
+date: 2025-07-06
+tags:
+  - about-me
+  - personal
+  - philosophy
+  - learning
 ---
 
 # hello 👋🏼
@@ -9,18 +13,21 @@ date: 2025-06-06
 i'm parth
 
 - engineering graduate from [bits pilani](https://www.google.com/search?q=bits+pilani&oq=bits+pilani&sourceid=chrome&ie=UTF-8), pilani, 2021. 🎓
-- working at [regie.ai](https://www.regie.ai/), making ai agents for sales. 🏢
-- full stack engineer, wannabe tech writer 💻
+- previously tech lead at [regie.ai](https://www.regie.ai/), making ai agents for sales. 🏢
+- currently exploring projects, wannabe writer 💻
 
 this is my personal notepad, where i will be writing about everything i learn. tech, health, philosophy, everything everywhere all at once.
 
-# superconcepts
+## superconcepts
 
-the idea of superconcepts is of ideas that go beyond themselves. what can you learn from the last video-game you played, and use at your current job? what kind of thinking reverts itself, when pursued deeply enough? why do our motivations not meet our actions? superconcepts are unlocked with obsessive knowledge hunting and introspection, usually through experience or deliberate effort.
+the idea of superconcepts is of ideas that go beyond themselves (a.k.a. higher order thinking). [what can you learn from the last video-game you played](https://www.reddit.com/r/CryptoCurrency/comments/15sd324/til_vitalik_buterin_created_ethereum_as_a_result/), and use at your current job? [what sort of concepts reverts themselves](https://einzelganger.co/the-backwards-law/), when pursued deeply (or broadly) enough? [how much distillation leads to oversimplification](https://x.com/paraschopra/status/1732368031714845094)? superconcepts are unlocked with obsessive knowledge hunting and introspection, usually through experience or deliberate effort.
 
-# why write a blog?
+there's an ocean of patterns out there just waiting to be explored. this is my tiny droplet of an effort.
 
-the purpose of this blog is to write about my lessons and thoughts. `<br />`
+## why write a blog?
+
+the purpose of this blog is to record, at intentionally low bandwidth, my lessons and thoughts.
+
 i've been meaning to write for a while now, because i believe that writing is one of the best ways to truly "realise" something. there are a few base concepts that have inspired me to begin writing.
 
 1. this quote by [feynman](https://www.goodreads.com/quotes/8414-what-i-cannot-create-i-do-not-understand)
@@ -41,8 +48,3 @@ i've been meaning to write for a while now, because i believe that writing is on
 - will have uncooked opinions, better to start feedback loops early than never.
 - mostly text based, decoration is for short attention spans and pop psychology.
 - dark mode because i like my eyesight. light mode for when i need to focus.
-
-## Connect With Me
-
-- [GitHub](https://github.com/kashikarparth)
-- [LinkedIn](https://www.linkedin.com/in/parth-kashikar/)
