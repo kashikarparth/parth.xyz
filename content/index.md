@@ -2,7 +2,6 @@
 title: Parth Kashikar
 date: 2025-07-06
 tags:
-  - about-me
   - personal
   - philosophy
   - learning
@@ -20,7 +19,7 @@ this is my personal notepad, where i will be writing about everything i learn. t
 
 ## superconcepts
 
-the idea of superconcepts is of ideas that go beyond themselves (a.k.a. higher order thinking). [what can you learn from the last video-game you played](https://www.reddit.com/r/CryptoCurrency/comments/15sd324/til_vitalik_buterin_created_ethereum_as_a_result/), and use at your current job? [what sort of concepts reverts themselves](https://einzelganger.co/the-backwards-law/), when pursued deeply (or broadly) enough? [how much distillation leads to oversimplification](https://x.com/paraschopra/status/1732368031714845094)? superconcepts are unlocked with obsessive knowledge hunting and introspection, usually through experience or deliberate effort.
+the idea of superconcepts is of ideas that go beyond themselves (a.k.a. higher order thinking). [what can you learn from the last video-game you played](https://www.reddit.com/r/CryptoCurrency/comments/15sd324/til_vitalik_buterin_created_ethereum_as_a_result/), and use at your current job? [what sort of concepts revert themselves](https://einzelganger.co/the-backwards-law/), when pursued deeply (or broadly) enough? [how much distillation leads to oversimplification](https://x.com/paraschopra/status/1732368031714845094)? superconcepts are unlocked with obsessive knowledge hunting and introspection, usually through experience or deliberate effort.
 
 there's an ocean of patterns out there just waiting to be explored. this is my tiny droplet of an effort.
 
